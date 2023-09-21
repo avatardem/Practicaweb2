@@ -45,6 +45,12 @@ footer {
     box-shadow: 0rem 0 1rem rgb(51, 75, 102);
 }
 
+.iconos {
+	width: 2rem;
+    height: 2rem;
+    
+}
+
 .line1-grid {
     grid-area: line1;
     margin:0;
