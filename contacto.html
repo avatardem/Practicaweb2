@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurismoArgentina</title>
+    <link rel="stylesheet" href="estilos/general.css">
+    <link rel="stylesheet" href="estilos/form-styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="h1index">Turismo Argentina</h1>
+        <nav>
+            <ul>
+                <li class="index"><a href="index.html">Inicio</a></li>
+                <li class="index"><a href="quienessomos.html">Quienes somos</a></li>
+                <li class="index"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="principal columnas">
+        <fieldset>
+            <h3>Contacto</h3>
+            <p><i>Envianos tus sugerencias a:</i><a
+                    href="mailto:contacto@turismoargentina.com.ar">contacto@turismoargentina.com.ar</a></p>
+            <i>O rellena el siguiente formulario:</i>
+            <form id=contacto action="show_data.html" target="_blank">
+                <div>
+                    <label for="Nombre"><b>Nombre:</b></label><br>
+                    <input size="40" type="text" name="nombre" id="Nombre">
+                </div>
+                <div>
+                    <label for="Email"><b>Email:</b></label><br>
+                    <input size="40" type="email" name="email" id="Email">
+                </div>
+                <div>
+                    <label for="comentarios"><b>Consultas o sugerencias:</b></label> <br>
+                    <textarea name="comentarios" rows="15" ></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
+        </fieldset>
+      
+    </main>
+    <footer>
+        <a href="https://www.facebook.com"><img src="imagenes/icono fb.ico"></a>
+        <a href="https://www.instagram.com"><img src="imagenes/icono instagram.ico"></a>
+        <a href="https://www.twitter.com"><img src="imagenes/icono tw.ico"></a>
+        <p>@TODOS LOS DERECHOS RESERVADOS</p>
+    </footer>
+</body>
+
+</html>

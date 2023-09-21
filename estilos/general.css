@@ -1,0 +1,222 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1366px;
+    background-color: rgb(252, 251, 251);
+    font-family: 'Merienda', cursive, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.2;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(93, 131, 175);
+    box-shadow: 0rem 0 1rem rgb(51, 75, 102);
+    
+}
+.secundario {
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        'line1 line1 line1 line1'
+        'line2 line2 line2 line2';
+}
+
+footer {
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(93, 131, 175);
+    padding: 1vw;
+    box-shadow: 0rem 0 1rem rgb(51, 75, 102);
+}
+
+.line1-grid {
+    grid-area: line1;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 0 0 2rem 0;
+    grid-area: line2;
+}
+h4{
+    margin-left: 2rem;
+}
+
+
+#h1index {
+    
+    padding: 1vw;
+    font-size: 3rem;
+}
+
+.index {
+    
+    font-size: 100%;
+}
+
+
+header nav ul {
+    
+    display: flex;
+    padding: 1vw;
+}
+
+header nav li {
+    font-size: 70%;
+    list-style: none;
+    margin-right: 1rem;
+}
+
+header nav a {
+    color: rgb(93, 131, 175);
+    padding: 0.5vw;
+    background-color: aliceblue;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+header nav a:hover {
+    background-color: rgb(138, 243, 243);
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+
+}
+
+#mapatitle {
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    padding: auto;
+}
+
+menu div {
+    display: inline;
+    font-size: 1.25vw;
+    color: aliceblue;
+    text-align: center;
+    padding: 1vw;
+}
+
+
+#menuNorte {
+
+    background-color: rgb(82, 43, 43);
+
+}
+
+#menuLitoral {
+    background-color: rgb(156, 59, 35);
+}
+
+#menuCuyo {
+    background-color: rgb(156, 140, 50);
+
+}
+
+#menuPampa {
+    background-color: rgb(29, 104, 29);
+
+}
+
+#menuPata {
+    background-color: rgb(50, 60, 148);
+
+}
+
+#menuNorte:hover,
+#menuLitoral:hover,
+#menuCuyo:hover,
+#menuPampa:hover,
+#menuPata:hover {
+    opacity: .5;
+}
+
+
+menu a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    width: 80%;
+    margin: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    margin: 0 auto;
+}
+
+article p {
+    margin:2rem auto;
+    
+}
+
+.cuyo {
+    background-color: rgb(156, 140, 50);
+}
+
+.litoral {
+    background-color: rgb(156, 59, 35);
+}
+
+.norte {
+    background-color: rgb(104, 29, 29);
+}
+
+.pampa {
+    background-color: rgb(29, 104, 29);
+}
+
+.pata {
+    background-color: rgb(50, 60, 148);
+
+}
+
+#cuyo-ppal {
+    width: 70%;
+}
+
+#litoral-ppal {
+    width: 70%;
+}
+
+#norte-ppal {
+    width: 70%;
+}
+
+#pampa-ppal {
+    width: 70%;
+}
+
+#pata-ppal {
+    width: 70%;
+}
+
+
